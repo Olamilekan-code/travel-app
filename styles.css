@@ -50,7 +50,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.5rem;
 }
 .side__bar-img {
   width: 200px;
@@ -99,13 +98,13 @@ h1 {
 h1 {
   margin-bottom: 5px;
 }
-.top-bar {
+/* .top-bar {
   height: 6rem;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  margin: 10px; */
 }
 .top__bar-p {
   color: grey;
@@ -143,11 +142,11 @@ h1 {
 .top-item:hover {
   color: black;
 }
-.sidebar__image {
+/* .sidebar__image {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 2rem; */
 }
 .tob__bar-link {
   display: flex;
