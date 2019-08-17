@@ -7,7 +7,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
 }
 .top__bar-p {
   color: grey;
@@ -19,6 +18,11 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem 0 1rem;
+  display: inline-flex;
+  color: grey;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 .top {
   justify-content: space-between;
@@ -27,20 +31,19 @@ h1 {
 
 .top-items {
   padding: 1rem 0;
-  margin: 0 1rem;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.top-item {
+/* .top-item {
   display: inline-flex;
   color: grey;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 400;
-}
+} */
 
 .top-item:hover {
   color: black;
@@ -58,7 +61,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem 0 1rem;
 }
 .links {
   text-decoration: none;
@@ -94,7 +96,7 @@ h1 {
 .stars {
   size: 0.1rem;
 }
-
+/* 
 h1 {
   margin-bottom: 5px;
 }
@@ -105,7 +107,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin: 10px; */
-}
+/*
 .top__bar-p {
   color: grey;
   margin-top: 1px;
@@ -129,9 +131,9 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.top-item {
+/* .top-item {
   display: inline-flex;
   color: grey;
   text-decoration: none;
@@ -141,19 +143,19 @@ h1 {
 
 .top-item:hover {
   color: black;
-}
+} */
 /* .sidebar__image {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 2rem; */
-}
-.tob__bar-link {
+
+/* .tob__bar-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem 0 1rem;
-}
+  padding: 0 2rem 0 1rem; */
+
 .links {
   text-decoration: none;
   color: grey;
@@ -200,15 +202,14 @@ h1 {
   align-items: center;
 }
 .hotel-img {
-  margin: 10px;
   flex-basis: 30%;
   height: 140px;
-  padding: 1rem;
 }
 .hotels-name {
   align-items: center;
   flex-basis: 60%;
   line-height: 0.3;
+  padding: 0 0 0 2rem;
 }
 .hotel-price {
   text-align: end;
@@ -229,7 +230,7 @@ h1 {
   height: 62px;
 }
 .Menu__bar-nav {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   right: 0;
   width: 100%;
