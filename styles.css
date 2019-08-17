@@ -17,11 +17,11 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem 0 1rem;
+  padding: 0 1rem 0 1rem;
   display: inline-flex;
   color: grey;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 .top {
@@ -53,9 +53,11 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow-x: scroll;
 }
 .side__bar-img {
   width: 200px;
+  padding: 7px;
 }
 .tob__bar-link {
   display: flex;
